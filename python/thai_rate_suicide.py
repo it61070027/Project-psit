@@ -11,6 +11,8 @@ def sum_thai():
     chart.title = 'Thailand suicide rate in 20 years'
     chart.x_labels = map(str, range(1995, 2016))
     chart.legend_at_bottom = True
+    chart.x_title = 'Year'
+    chart.y_title = 'Number Of Suicides'
     chart.add('Thai Suicide', [i[0] for i in data])
     chart.render_to_file('thai_rate_suicide.svg')
 
