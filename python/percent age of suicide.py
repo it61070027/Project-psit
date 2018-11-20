@@ -11,7 +11,7 @@ def age():
     for i in range(len(data_age)):
         dic[dt_age[i]] = ((data_age[i][0]/20)*100)/(data_age[i][1]/20)
     chart = pygal.HorizontalBar()
-    chart.title = 'Browser usage in February 2012 (in %)'
+    chart.title = 'Average Suicides in 20 years of Age (in %)'
     chart.legend_at_bottom = True
     chart.x_title = 'Percent of Suicides'
     chart.y_title = 'Age'
