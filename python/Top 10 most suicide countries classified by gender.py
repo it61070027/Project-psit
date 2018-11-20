@@ -13,10 +13,10 @@ def sex_country():
     treemap.legend_at_bottom = True
     treemap.truncate_legend = 19
     treemap.legend_box_size = 16
-    treemap.title = 'Top 10 most suicide countries classified by gender'
+    treemap.title = 'Top 10 most average suicide countries in 20 years classified by gender'
     treemap.add('Female', [{'value': dic_female[i], 'label': i} for i in dic_female])
     treemap.add('Male', [{'value': dic_male[i], 'label': i} for i in dic_male])
-    treemap.render_to_file('Top 10 most suicide countries classified by gender.svg')
+    treemap.render_to_file('Top 10 most avarange suicide countries  in 20 years classified by gender.svg')
 def filter_sex(sex, dt):
     dic = {}
     filter_sex = pandas.DataFrame(list(filter(lambda x:x[0] == sex, dt)),columns=['sex', 'country', 'suicides_no'])
