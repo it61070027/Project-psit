@@ -13,7 +13,7 @@ def chart_c():
     custom_style = Style(plot_background='#d4d3d6' ,background='#e6f4f6') #ตกแต่งกราฟ
     chart = pygal.StackedLine(fill=True, interpolate='cubic', dots_size=1.5, style=custom_style)
     chart.legend_at_bottom = True
-    chart.title = 'Top 10 countries most of suicides number classified by age'
+    chart.title = 'Top 10 countries most of suicides in 20 years classified by age'
     chart.x_labels = dt_age
     chart.x_title = 'Age'
     chart.y_title = 'Averange Number Of Suicides in 20 years'

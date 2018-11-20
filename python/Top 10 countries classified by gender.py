@@ -16,7 +16,7 @@ def sex_country():
     treemap.title = 'Top 10 most average suicide countries in 20 years classified by gender'
     treemap.add('Female', [{'value': dic_female[i], 'label': i} for i in dic_female])
     treemap.add('Male', [{'value': dic_male[i], 'label': i} for i in dic_male])
-    treemap.render_to_file('Top 10 most avarange suicide countries  in 20 years classified by gender.svg')
+    treemap.render_to_file('Top 10 countries classified by gender.svg')
 def filter_sex(sex, dt):
     dic = {}
     filter_sex = pandas.DataFrame(list(filter(lambda x:x[0] == sex, dt)),columns=['sex', 'country', 'suicides_no'])
