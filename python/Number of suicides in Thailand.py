@@ -1,28 +1,20 @@
 """ Project Psit 
     suicide analysis
     thai suicide 
-    female / male bar
     """
 import pandas, numpy, pygal
-from pygal.style import Style
-def sum_sex():
-    """ sum male / sum female number suicide thai 20 year """
-    custom_style = Style(
-    colors=('#0502c8', '#ef0200'))
+def sum_thai():
+    """ sum number suicide thai 20 year """
     df = pandas.read_csv('thai_suicide.csv')
-    data_female = list(filter(lambda x:x[0] == 'female',numpy.array(df[['sex', 'year', 'suicides_no']]).tolist()))
-    data_male = list(filter(lambda x:x[0] == 'male',numpy.array(df[['sex', 'year', 'suicides_no']]).tolist()))
-    data_female = pandas.DataFrame(data_female,columns=['sex', 'year', 'suicides_no'])
-    data_male = pandas.DataFrame(data_male,columns=['sex', 'year', 'suicides_no'])
-    data_female_sum_year = numpy.array(data_female.groupby('year').sum()['suicides_no']).tolist()
-    data_male_sum_year = numpy.array(data_male.groupby('year').sum()['suicides_no']).tolist()
-    chart = pygal.StackedBar(style=custom_style)
-    chart.title = 'Number of suicides in Thailand (20 years)'
-    chart.x_title = 'Year'
-    chart.y_title = 'Number Of Suicides'
+    data = numpy.array(df.groupby('year').sum()[['suicides_no', 'population']]).tolist()
+    chart = pygal.Line()
+    chart.title = 'Number of suicides in Thailand'
     chart.x_labels = map(str, range(1995, 2016))
     chart.legend_at_bottom = True
-    chart.add('Male', data_male_sum_year)
-    chart.add('Female', data_female_sum_year)
-    chart.render_to_file('Number of suicides in Thailand (male and female).svg')
-sum_sex()
+    chart.x_title = 'Year'
+    chart.y_title = 'Number Of Suicides'
+    chart.add('Thai Suicide', [i[0] for i in data])
+    chart.render_to_file('Number of suicides in Thailand.svg')
+
+
+sum_thai()
