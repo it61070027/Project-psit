@@ -17,7 +17,7 @@ def main():
     dic_age_female = sum_age(female_data)
     dic_age_male = sum_age(male_data)
     chart = pygal.StackedBar(style=custom_style)
-    chart.title = 'Thailand Age And Sex Average Suicide in 20 years'
+    chart.title = 'Number of suicides in Thailand classified by age and gender (20 years)'
     chart.x_labels = dt_age2
     chart.legend_box_size = 16
     chart.legend_at_bottom = True
@@ -25,7 +25,7 @@ def main():
     chart.y_title = 'Number Of Suicides'
     chart.add('Male', [dic_age_male[i] for i in dt_age2])
     chart.add('Female',[dic_age_female[i] for i in dt_age2])
-    chart.render_to_file('Thailand Age And Sex Average Suicide in 20 years.svg')
+    chart.render_to_file('Number of suicides in Thailand (age and gender).svg')
 def sum_age(data):
     dic = {}
     df_new = pandas.DataFrame(data,columns=['sex', 'age', 'suicides_no'])

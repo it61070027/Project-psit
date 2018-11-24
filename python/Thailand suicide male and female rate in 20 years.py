@@ -6,7 +6,7 @@
 import pandas, numpy, pygal
 from pygal.style import Style
 def sum_sex():
-    """ sum male / sum female number suicide thai 20 year """
+    """ Suicide rate in Thailand per 100000 populations (male and female) """
     custom_style = Style(
     colors=('#0502c8', '#ef0200'))
     df = pandas.read_csv('thai_suicide.csv')
@@ -25,10 +25,12 @@ def sum_sex():
         rate_female.append(data_female_sum_year[i]/data_female_population_sum_year[i]*100000)
         
     line_chart = pygal.HorizontalBar(print_labels=True, stack_from_top=False, style=custom_style)
-    line_chart.title = 'Thailand suicide male and female rate in 20 years'
+    line_chart.title = 'Thailand suicide rate male and female in 20 years (per 100000 populations)'
+    line_chart.x_title = "Suicide rate (per 100000 populations)"
+    line_chart.y_title = 'Years'
     line_chart.x_labels = map(str, range(1995, 2016))
     line_chart.y_labels = map(int, range(0, 16))
     line_chart.add('Male', rate_male)
     line_chart.add('Female', rate_female)
-    line_chart.render_to_file('thai_rate_suicide_male_female.svg')
+    line_chart.render_to_file('Thailand suicide rate male and female.svg')
 sum_sex()

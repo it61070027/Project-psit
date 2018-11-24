@@ -9,9 +9,9 @@ def age():
     data_age = numpy.array(df.groupby('age').sum()['suicides_no']).tolist()
     dt_age = ['15-24 years', '25-34 years', '35-54 years', '5-14 years', '55-74 years', '75+ years']
     chart = pygal.Pie(style=custom_style)
-    chart.title = 'Thailand Suicides rate in 20 years (Age)'
+    chart.title = 'Number of suicide in Thailand classified by age'
     for i in range(len(dt_age)):
         chart.add(dt_age[i], [{'value': data_age[i], 'label':'{:.2f}%'.format((data_age[i]*100)/sum(data_age))}])
     chart.legend_at_bottom = True
-    chart.render_to_file('thai_rate_suicide_age.svg')
+    chart.render_to_file('Number of suicide (age only).svg')
 age()
