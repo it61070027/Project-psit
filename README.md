@@ -35,10 +35,10 @@
     <td><img src="https://user-images.githubusercontent.com/42952006/50046442-eca85680-00d5-11e9-9678-8fb3b73701d4.jpg" width="150" height="150"></td>
   </tr>
   <tr>
-    <td><a href="index.html">Man</a></td>
-    <td><a href="index.html">Aom</a></td>
-    <td><a href="index.html">Pleum</a></td>
-    <td><a href="index.html">Great</a></td>
+    <td><a href="https://github.com/it61070027">Man</a></td>
+    <td><a href="https://github.com/ckrittima">Aom</a></td>
+    <td><a href="https://github.com/wachirasitp">Pleum</a></td>
+    <td><a href="https://github.com/Phakapol">Great</a></td>
   </tr>
   <tr>
     <td><h3>Jirat Thongpen</h3></td>
