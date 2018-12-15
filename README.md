@@ -27,5 +27,6 @@
 ### ซึ่งเราได้จัดทำเว็บไซต์เพื่อจัดเก็บและนำเสนอข้อมูลของเรา
    - https://it61070027.github.io/Suicide-Analysis-Project-Psit/
 
+![suicide](https://user-images.githubusercontent.com/42952006/50046237-d056ea80-00d2-11e9-9f9a-b5cd8f8428fd.jpg)
 
 
