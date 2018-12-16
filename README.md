@@ -1,6 +1,7 @@
 # Thailand suicide in 20 years
 วิเคราะห์อัตราการฆ่าตัวตายของประชากรไทยและประชากรประเทศอื่นๆ ในช่วง 20 ปี (พ.ศ.2538 - 2558)
   LINK:https://it61070027.github.io/Suicide-Analysis-Project-Psit/
+  LINK YOUTUBE:https://www.youtube.com/watch?v=CUb_YOcNgow&feature=youtu.be&fbclid=IwAR0Q386BoGv4q9oxOQ0PW55SEabvx0mHjrG_kxfhb-6Kj624yD9nnoODW3A
 ## งานวิจัยนี้ศึกษาเกี่ยวกับ 
 1. การฆ่าตัวตายของประชากรไทย แนวโน้มการฆ่าตัวตายของประชากรไทยในช่วง 20 ปี โดยจำแนกตามเพศ ช่วงอายุ และปี
   - เพศที่มีการฆ่าตัวตายมากที่สุด
