@@ -27,27 +27,7 @@
 ### ซึ่งเราได้จัดทำเว็บไซต์เพื่อจัดเก็บและนำเสนอข้อมูลของเรา
    - https://it61070027.github.io/Suicide-Analysis-Project-Psit/
 ### สมาชิก
-<table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/42952006/50046436-e1552b00-00d5-11e9-8980-562c4c6a70a7.jpg" width="150" height="150"></td>
-    <td><img src="https://user-images.githubusercontent.com/42952006/50046440-e6b27580-00d5-11e9-998c-14d018063a91.jpg" width="150" height="150"></td>
-    <td><img src="https://user-images.githubusercontent.com/42952006/50046441-ea45fc80-00d5-11e9-896b-7945ecd9a4ab.jpg" width="150" height="150"></td>
-    <td><img src="https://user-images.githubusercontent.com/42952006/50046442-eca85680-00d5-11e9-9678-8fb3b73701d4.jpg" width="150" height="150"></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/it61070027">Man</a></td>
-    <td><a href="https://github.com/ckrittima">Aom</a></td>
-    <td><a href="https://github.com/wachirasitp">Pleum</a></td>
-    <td><a href="https://github.com/Phakapol">Great</a></td>
-  </tr>
-  <tr>
-    <td><h3>Jirat Thongpen</h3></td>
-    <td><h3>Krittima Chantachalee</h3></td>
-    <td><h3>Wachirasit Yeetan</h3></td>
-    <td><h3>Phakapol Tanwathana</h3></td>
-  </tr>
-</table>
-
-
-
-
+<img width="180"  src="https://user-images.githubusercontent.com/42952006/50046436-e1552b00-00d5-11e9-8980-562c4c6a70a7.jpg">|<img width="180" src="https://user-images.githubusercontent.com/42952006/50046441-ea45fc80-00d5-11e9-896b-7945ecd9a4ab.jpg">|<img width="180" src="https://user-images.githubusercontent.com/42952006/50046440-e6b27580-00d5-11e9-998c-14d018063a91.jpg"> | <img width="180"  src="https://user-images.githubusercontent.com/42952006/50046442-eca85680-00d5-11e9-9678-8fb3b73701d4.jpg">
+------------ | ------------- | ------------- |-------------
+<a href="https://github.com/it61070027"><div align="center">Man</div></a>| <a href="https://github.com/wachirasitp"><div align="center">Pleum</div></a> | <a href="https://github.com/ckrittima"><div align="center">Aom</div></a>| <a href="https://github.com/Phakapol"><div align="center">Great</div></a> 
+<boda><div align="center"><b>Jirat Thongpen</b></div></body>| <div align="center"><b>Wachirasit Yeetan</b></div> | <div align="center"><b>Krittima Chantachalee</b></div> | <div align="center"><b>Phakapol Tanwathana</b></div>
